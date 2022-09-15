@@ -1,0 +1,3 @@
+Ada Lovelace, whose notes added to the end of Luigi Menabrea's paper included
+ the first algorithm designed for processing by an Analytical Engine.
+ She is often recognized as history's first computer programmer

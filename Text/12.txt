@@ -1,0 +1,56 @@
+Computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), 
+usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, 
+profiling algorithms' accuracy and resource consumption, and the implementation of algorithms (usually in a chosen programming language,
+ commonly referred to as coding).[1][2] The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer, often for solving a given problem. Proficient programming thus usually requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.
+
+Tasks accompanying and related to programming include testing, debugging, source code maintenance, implementation of build systems,
+ and management of derived artifacts, such as the machine code of computer programs. These might be considered part of the programming
+ process, but often the term software development is used for this larger process with the term programming, implementation, or coding
+ reserved for the actual writing of code. Software engineering combines engineering techniques with software development practices. Reverse engineering is a related process used by designers, analysts, and programmers to understand and re-create/re-implement.
+Main article: Debugging
+
+The first known actual bug causing a problem in a computer was a moth, trapped inside a Harvard mainframe, recorded in a log book entry
+ dated September 9, 1947.[24] "Bug" was already a common term for a software defect when this insect was found.
+Debugging is a very important task in the software development process since having defects in a program can have significant 
+consequences for its users. Some languages are more prone to some kinds of faults because their specification does not require 
+compilers to perform as much checking as other languages. Use of a static code analysis tool can help detect some possible problems.
+ Normally the first step in debugging is to attempt to reproduce the problem. This can be a non-trivial task,
+ for example as with parallel processes or some unusual software bugs. Also, specific user environment and usage history
+ can make it difficult to reproduce the problem.
+
+After the bug is reproduced, the input of the program may need to be simplified to make it easier to debug. For example,
+ when a bug in
+ a compiler can make it crash when parsing some large source file, a simplification of the test case that results
+ in only few lines from the original source file can be sufficient to reproduce the same crash. Trial-and-error/divide-and-conquer is needed: the programmer
+ will try to remove some parts of the original test case and check if the problem still exists. When debugging the problem in a GUI, the programmer can try to 
+skip some user interaction from the original problem description and check if remaining actions are sufficient for bugs to appear. 
+Scripting and breakpointing is also part of this process.
+
+Debugging is often done with IDEs. Standalone debuggers like GDB are also used, and these often provide less of a visual
+ environment, usually using a command line. Some text editors such as Emacs allow GDB to be invoked through them, 
+to provide a visual environment.
+
+Programming languages
+Main articles: Programming language and List of programming languages
+See also: Computer program § Languages
+Different programming languages support different styles of programming (called programming paradigms).
+ The choice of language used is subject to many considerations, such as company policy, suitability to task, availability of third-party packages, or
+ individual preference. Ideally, the programming language best suited for the task at hand will be selected.
+ Trade-offs from this ideal involve finding enough programmers who know the language to build a team,
+ the availability of compilers for that language, and the efficiency with which programs written in a given language execute.
+ Languages form an approximate spectrum from "low-level" to "high-level"; "low-level" 
+languages are typically more machine-oriented and faster to execute, whereas "high-level" languages are more abstract and easier to use but execute less quickly. 
+It is usually easier to code in "high-level" languages than in "low-level" ones.
+ Programming languages are essential for software development. They are the building blocks for all software, from the simplest applications to the most sophisticated ones.
+
+Allen Downey, in his book How To Think Like A Computer Scientist, writes:
+
+The details look different in different languages, but a few basic instructions appear in just about every language:
+Input: Gather data from the keyboard, a file, or some other device.
+Output: Display data on the screen or send data to a file or other device.
+Arithmetic: Perform basic arithmetical operations like addition and multiplication.
+Conditional Execution: Check for certain conditions and execute the appropriate sequence of statements.
+Repetition: Perform some action repeatedly, usually with some variation.
+Many computer languages provide a mechanism to call functions provided by shared libraries.
+ Provided the functions in a library follow the appropriate run-time conventions (e.g., method of passing arguments),
+ then these functions may be written in any other language.
